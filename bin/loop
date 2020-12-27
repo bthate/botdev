@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+# BOTLIB - hdl.py
+#
+# this file is placed in the public domain
+
+import os, sys
+
+olddir = os.getcwd()
+
+def dirs(d):
+    return [x for x in os.listdir(d) if os.path.isdir(x)]
+
+def open(txt):
+    try:
+        for line in os.popen(txt).readlines():
+            print(line.rstrip())
+    except:
+        pass
+
+for path in dirs(os.getcwd()):
+    if path.startswith("."):
+        continue
+    if path == "dist":
+        continue
+    if os.path.isdir(path):
+        os.chdir(path)
+        open(" ".join(sys.argv[1:]))
+    os.chdir(olddir)
