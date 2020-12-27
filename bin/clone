@@ -1,14 +1,9 @@
-git clone ssh://git@github.com/bthate/botlib
-git clone ssh://git@github.com/bthate/botd
-git clone ssh://git@github.com/bthate/rssbot
-git clone ssh://git@github.com/bthate/udpbot
-git clone ssh://git@github.com/bthate/emailbot
-git clone ssh://git@github.com/bthate/genocide
-git clone ssh://git@github.com/bthate/genoclaim
-git clone ssh://git@github.com/bthate/president
-git clone ssh://git@github.com/bthate/koning
-git clone ssh://git@github.com/bthate/kamer
-git clone ssh://git@github.com/bthate/botlib
-git clone ssh://git@github.com/bthate/botlib
-git clone ssh://git@github.com/bthate/botlib
-git clone ssh://git@github.com/bthate/botlib
+git clone ssh://git@github.com/bthate/botlib w/botlib
+git clone ssh://git@github.com/bthate/botd w/botd
+git clone ssh://git@github.com/bthate/rssbot w/rssbot
+git clone ssh://git@github.com/bthate/genocide w/genocide
+git clone ssh://git@github.com/bthate/genoclaim w/genoclaim
+git clone ssh://git@github.com/bthate/president w/president
+git clone ssh://git@github.com/bthate/koning w/koning
+git clone ssh://git@github.com/bthate/kamer w/kamer
+
